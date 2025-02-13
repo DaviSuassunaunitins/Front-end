@@ -3,8 +3,11 @@ body {
 }
 .titulo {
     background-color: #b1cce6 ;
-    border-top: 2px;
     border: solid 2px black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
 }
 .t1 {
     color: red;
@@ -17,10 +20,11 @@ body {
 }
 .carro1 {
     border: solid 2px black;
-    position: relative;
-    top: 10px;
+    position: absolute;
+    top: 320px;
     background-color: white;
     border-radius: 15px;
+    right: 1200px;
 }
 .tc1p {
     background-color: #7bb0e0;
@@ -34,13 +38,7 @@ body {
     height: 280px;
     margin-left: 10px;
     right: 100px;
-}
-.textounomille {
-    position: absolute;
-    left: 320px;
-    right: 10px;
-    top: 142px;
-    font-family: Verdana, sans-serif;
+    border-radius: 15px;
 }
 a:link {
     text-decoration: none;
@@ -55,5 +53,5 @@ a:link {
 .informacaounomille {
     position: absolute;
     left: 320px;
-    top: 270px;
+    top: 300px;
 }

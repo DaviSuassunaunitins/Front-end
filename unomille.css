@@ -1,0 +1,63 @@
+body {
+    background-color: #617587 ;
+}
+.iniciounomille {
+    border: solid 2px black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #b1cce6;
+}
+#unotitulo {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    font-size: 100px;
+    height: 100px;
+    margin-top: 25px;
+}
+#fotouno {
+    border: solid 2px black;
+    border-radius: 15px;
+    position: relative;
+    bottom: 50px;
+    
+}
+.anunciouno {
+    border: solid 2px black;
+    position: absolute;
+    left: 20px;
+    right: 10px;
+    background-color: white;
+    top: 220px;
+    border-radius: 15px;
+}
+#textanunciouno {
+    position: absolute;
+    left: 750px;
+    right: 40px;
+    top: 50px;
+    border: solid 2px black;
+    background-color: #e84f4f;
+}
+#precouno {
+    color: green;
+    font-size: 50px;
+    position: absolute;
+    top: 280px;
+    left: 480px;
+}
+.videouno {
+    background-color: white;
+    border: solid 2px black;
+    position: absolute;
+    left: 20px;
+    right: 10px;
+    border-radius: 15px;
+    top: 700px;
+}
+#videouno {
+    border-radius: 15px;
+    position: relative;
+}
