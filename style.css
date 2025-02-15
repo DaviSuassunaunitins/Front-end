@@ -31,7 +31,7 @@ a:hover {
     top: 320px;
     background-color: white;
     border-radius: 15px;
-    right: 1200px;
+    right: 1250px;
 }
 .tc1p {
     background-color: #7bb0e0;
@@ -41,8 +41,8 @@ a:hover {
     font-size: 50px;
 }
 .imguno {
-    width: 300px;
-    height: 220px;
+    width: 250px;
+    height: 190px;
     margin-left: 10px;
     right: 100px;
     border-radius: 15px;
@@ -53,7 +53,7 @@ a:hover {
     top: 320px;
     background-color: white;
     border-radius: 15px;
-    left: 330px;
+    left: 280px;
 }
 .tc2p {
     background-color: #7bb0e0;
@@ -63,8 +63,52 @@ a:hover {
     font-size: 50px;
 }
 .imgcelta {
-    width: 300px;
-    height: 220px;
+    width: 250px;
+    height: 190px;
+    margin-left: 10px;
+    right: 100px;
+    border-radius: 15px;
+}
+.carro3 {
+    border: solid 2px black;
+    position: absolute;
+    top: 320px;
+    background-color: white;
+    border-radius: 15px;
+    left: 552px;
+}
+.tc3p {
+    background-color: #7bb0e0;
+}
+.tc3 {
+    margin-left: 10px;
+    font-size: 50px;
+}
+.imgpalio {
+    width: 250px;
+    height: 190px;
+    margin-left: 10px;
+    right: 100px;
+    border-radius: 15px;
+}
+.carro4 {
+    border: solid 2px black;
+    position: absolute;
+    top: 320px;
+    background-color: white;
+    border-radius: 15px;
+    left: 825px;
+}
+.tc4p {
+    background-color: #7bb0e0;
+}
+.tc4 {
+    margin-left: 10px;
+    font-size: 50px;
+}
+.imgclassic {
+    width: 250px;
+    height: 190px;
     margin-left: 10px;
     right: 100px;
     border-radius: 15px;
