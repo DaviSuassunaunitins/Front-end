@@ -9,7 +9,7 @@ a {
 a:hover {
     color: white;
 }
-.inicioclassic {
+.inicioka {
     border: solid 2px black;
     position: absolute;
     top: 0px;
@@ -17,7 +17,7 @@ a:hover {
     right: 0px;
     background-color: #b1cce6;
 }
-#classictitulo {
+#katitulo {
     position: absolute;
     top: 0px;
     left: 300px;
@@ -25,7 +25,7 @@ a:hover {
     height: 100px;
     margin-top: 25px;
 }
-.anuncioclassic {
+.anuncioka {
     border: solid 2px black;
     position: absolute;
     left: 20px;
@@ -34,14 +34,14 @@ a:hover {
     top: 220px;
     border-radius: 15px;
 }
-#fotoclassic {
+#fotoka {
     border: solid 2px black;
     border-radius: 15px;
     position: relative;
     bottom: 40px;
     
 }
-#infoanuncioclassic {
+#infoanuncioka {
     position: absolute;
     left: 750px;
     right: 40px;
@@ -50,7 +50,7 @@ a:hover {
     background-color: #e84f4f;
     border-radius: 15px;
 }
-#textanuncioclassic {
+#textanuncioka {
     border: solid 2px black;
     position: absolute;
     left: 750px;
@@ -60,14 +60,14 @@ a:hover {
     border-radius: 15px;
     background-color: #b1cce6;
 }
-#precoclassic {
+#precoka {
     color: green;
     font-size: 50px;
     position: absolute;
     top: 283px;
     left: 480px;
 }
-.videoclassic {
+.videoka {
     background-color: white;
     border: solid 2px black;
     position: absolute;
@@ -77,11 +77,11 @@ a:hover {
     top: 650px;
     padding: auto;
 }
-#videoclassic {
+#videoka {
     border-radius: 15px;
     position: relative;
 }
-#textvideoclassic {
+#textvideoka {
     position: absolute;
     left: 600px;
     right: 40px;
@@ -90,7 +90,7 @@ a:hover {
     background-color: #e84f4f;
     border-radius: 15px;
 }
-#ptextvideoclassic {
+#ptextvideoka {
     border: solid 2px black;
     position: absolute;
     left: 0px;
@@ -101,7 +101,7 @@ a:hover {
     background-color: #b1cce6;
     font-size: 22px;
 }
-#pptextvideoclassic {
+#pptextvideoka {
     margin-left: 10px;
 }
 .margem {
