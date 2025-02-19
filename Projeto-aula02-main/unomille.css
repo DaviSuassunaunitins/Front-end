@@ -1,0 +1,113 @@
+body {
+    background-color: #617587 ;
+    margin-bottom: 50px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: white;
+}
+.iniciounomille {
+    border: solid 2px black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #b1cce6;
+}
+#unotitulo {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    font-size: 100px;
+    height: 100px;
+    margin-top: 25px;
+}
+.anunciouno {
+    border: solid 2px black;
+    position: absolute;
+    left: 20px;
+    right: 10px;
+    background-color: white;
+    top: 220px;
+    border-radius: 15px;
+}
+#fotouno {
+    border: solid 2px black;
+    border-radius: 15px;
+    position: relative;
+    bottom: 40px;
+    
+}
+#infoanunciouno {
+    position: absolute;
+    left: 750px;
+    right: 40px;
+    top: 30px;
+    border: solid 2px black;
+    background-color: #e84f4f;
+    border-radius: 15px;
+}
+#textanunciouno {
+    border: solid 2px black;
+    position: absolute;
+    left: 750px;
+    top: 130px;
+    right: 40px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #b1cce6;
+}
+#precouno {
+    color: green;
+    font-size: 50px;
+    position: absolute;
+    top: 283px;
+    left: 480px;
+}
+.videouno {
+    background-color: white;
+    border: solid 2px black;
+    position: absolute;
+    left: 20px;
+    right: 10px;
+    border-radius: 15px;
+    top: 650px;
+    padding: auto;
+}
+#videouno {
+    border-radius: 15px;
+    position: relative;
+}
+#textvideouno {
+    position: absolute;
+    left: 600px;
+    right: 40px;
+    top: 30px;
+    border: solid 2px black;
+    background-color: #e84f4f;
+    border-radius: 15px;
+}
+#ptextvideouno {
+    border: solid 2px black;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    right: 0px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #b1cce6;
+    font-size: 22px;
+}
+#pptextvideouno {
+    margin-left: 10px;
+}
+.margem {
+    position: absolute;
+    top: 950px;
+}
+#escondido {
+    color: #617587;
+}
