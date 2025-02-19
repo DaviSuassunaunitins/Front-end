@@ -6,7 +6,7 @@ a {
     color: black;
 }
 a:hover {
-    color: #e84f4f;
+    color: #4769a1;
 }
 .titulo {
     background-color: #b1cce6 ;
@@ -188,9 +188,22 @@ td {
     padding: 30px;
     background-color: white;
 }
+.form {
+    border: solid 2px black;
+    background-color: #e84f4f;
+    position: absolute;
+    top: 1370px;
+    border-radius: 15px;
+    left: 10px;
+    right: 10px;
+}
+#form {
+    font-size: 50px;
+    margin: 0px;
+}
 .margem {
     position: absolute;
-    top: 1320px;
+    top: 1380px;
 }
 #escondido {
     color: #617587;
