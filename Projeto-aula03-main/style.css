@@ -1,5 +1,5 @@
 body {
-    background-color: #617587 ;
+    background-color: #617587;
 }
 a {
     text-decoration: none;
@@ -15,9 +15,12 @@ a:hover {
     top: 0px;
     right: 0px;
     left: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
 }
 .t1 {
-    position: relative;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
@@ -25,15 +28,31 @@ a:hover {
     border: solid 2px black;
     background-color: #e84f4f;
     border-radius: 15px;
+}
+#t1 {
     font-size: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.carros {
+    justify-content: center;
+    margin-top: 380px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: nowrap;
+    position: absolute;
+    right: 0px;
+    left: 0px;
 }
 .carro1 {
     border: solid 2px black;
-    position: absolute;
-    top: 340px;
     background-color: white;
     border-radius: 15px;
     left: 10px;
+    align-items: start;
 }
 .tc1p {
     background-color: #7bb0e0;
@@ -51,8 +70,6 @@ a:hover {
 }
 .carro2 {
     border: solid 2px black;
-    position: absolute;
-    top: 340px;
     background-color: white;
     border-radius: 15px;
     left: 320px;
@@ -73,7 +90,6 @@ a:hover {
 }
 .carro3 {
     border: solid 2px black;
-    position: absolute;
     top: 340px;
     background-color: white;
     border-radius: 15px;
@@ -95,7 +111,6 @@ a:hover {
 }
 .carro4 {
     border: solid 2px black;
-    position: absolute;
     top: 340px;
     background-color: white;
     border-radius: 15px;
@@ -117,7 +132,6 @@ a:hover {
 }
 .carro5 {
     border: solid 2px black;
-    position: absolute;
     top: 340px;
     background-color: white;
     border-radius: 15px;
@@ -143,8 +157,12 @@ a:hover {
     left: 10px;
     right: 10px;
     background-color: white;
-    top: 700px;
+    top: 770px;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 #infotabela {
     position: relative;
@@ -161,8 +179,9 @@ a:hover {
 }
 #tabela {
     position: relative;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-self: center;
 }
 #table {
     position: relative;
@@ -192,10 +211,11 @@ td {
     border: solid 2px black;
     background-color: #e84f4f;
     position: absolute;
-    top: 1370px;
+    top: 1450px;
     border-radius: 15px;
     left: 10px;
     right: 10px;
+    margin-bottom: 50px;
 }
 #form {
     font-size: 50px;
@@ -203,7 +223,7 @@ td {
 }
 .margem {
     position: absolute;
-    top: 1380px;
+    top: 1480px;
 }
 #escondido {
     color: #617587;
