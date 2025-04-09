@@ -1,12 +1,7 @@
-@font-face {
-    font-family: fontjp;
-    src: url(../jp_fontJurassicPark.ttf);
-}
-
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
 }
 
 body {
@@ -61,6 +56,21 @@ nav a {
 
 #title {
     background-color: #550000;
-    font-family: fontjp;
+    width: 110em;
+    height: 8em;
     margin: 0 auto;
+    text-align: center;
+    font-family: 'MinhaFonte', sans-serif;
+    
+}
+
+#fonte {
+    font-size: 6em;
+    padding-top: 0.2em;
+    letter-spacing: 5px;
+}
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('/jp_fontJurassicPark.ttf') format('truetype'); 
 }
