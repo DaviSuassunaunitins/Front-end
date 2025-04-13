@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #123123;
+    padding-bottom: 2em;
+}
+
+#fundo {
+    background-image: url('../img/jp_topoFundo.jpg');
+    height: 15em;
+    width: 110em;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+    justify-content: center;
+    width: 250px !important;
+    padding: 1em;
+    margin-left: 40px;
+}
+
+nav {
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 1em 0 1em 0;
+    box-shadow: 5px white;
+    background-image: url('../img/jp_menuFundo.jpg');
+    overflow: hidden;
+    width: 40em;
+    padding: 1em;
+    float: right;
+    margin-right: 200px;
+    margin-top: 70px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+#title {
+    background-color: #550000;
+    width: 110em;
+    height: 8em;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'MinhaFonte', sans-serif;   
+}
+
+#fonte {
+    font-size: 6em;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.caixa1 {
+    margin: 0 auto;
+    background-color: white;
+    width: 110em;
+    height: 29em;
+    padding-top: 10px;
+}
+
+.caixa-img1 {
+    width: 12%;
+    padding-top: 4em;
+    padding-left: 6em;
+    float: left;
+}
+
+.caixa-text1 {
+    width: 70%;
+    float: right;
+    padding-top: 4em;
+    padding-right: 6em;
+}
+
+.caixa2 {
+    margin: 0 auto;
+    background-color: #555555;
+    width: 110em;
+    height: 29em;
+    padding-top: 10px;
+}
+
+.caixa-img2 {
+    width: 12%;
+    padding-top: 4em;
+    padding-right: 6em;
+    float: right;
+}
+
+.caixa-text2 {
+    width: 70%;
+    float: left;
+    padding-top: 4em;
+    padding-left: 6em;
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 28px;
+}
+
+#premio {
+    background-image: url('../img/jp_fundoSelva.jpg');
+    height: 40em;
+    width: 110em;
+    margin: 0 auto;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    color: white;
+}
+
+#title-premio {
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#tabela {
+    margin-left: 23.8em;
+    border-collapse: separate;
+    border-spacing: 5px;
+    font-size: 24px;
+}
+
+.item-1 {
+    padding-left: 1em;
+    padding-right: 1em; 
+}
+
+th {
+    background-color: #333333;
+    padding: 0.7em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 30px;
+}
+
+td {
+    background-color: #dddd00;
+    padding: 0.7em;
+    color: black;
+    text-align: center;
+}
+
+.item {
+    background-color: #999999;
+}
+
+footer {
+    background-image: url('../img/jp_topoFundo.jpg');
+    height: 5em;
+    width: 110em;
+    margin: 0 auto;
+    text-align: center;
+    color: white;    
+    padding-top: 35px;
+}
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('../jp_fontJurassicPark.ttf') format('truetype'); 
+    font-weight: normal;
+}
